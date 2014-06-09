@@ -38,31 +38,35 @@
 <html>
 	<title>Submit Product Feedback</title>
 	  <div class="container">
-	  <h1>Tell us what you think</h1>
-	    <h2>Help us collect feedback so that we can improve our products.</h2>
-	    <ul>
-		    <li>Product 1</li>
-		      <ul>
-			      <li>Sub Product 1</li>
-			        <form>
-				        <textarea placeholder="Please enter feedback ..."></textarea>
-				        <input type="submit" value="Submit!"></input>
-				      </form>
-			      <li>Sub Product 2</li>
-			      <li>Sub Product 3</li>			
-			    </ul>
-			  <li>Product 2</li>
-			    <ul>
-				    <li>Sub Product 1</li>
-				    <li>Sub Product 2</li>
-				  </ul>
-				<li>Product 3</li>
-				  <ul>
-					  <li>Sub Product 1</li>
-						<li>Sub Product 2</li>
-						<li>Sub Product 3</li>
-		  </ul>
-      <form><input Type="button" VALUE="Back" onClick="history.go(-1);return true;"></form>		  
+	  <h1>Tell us what you think!</h1>
+	    <h2>Send feedback to the product team:</h2>
+        <ul>
+          <li>Product
+            <select>
+             <option>Display</option>
+             <option>Search</option>
+             <option>Mobile</option>
+             <option>PLA</option>
+             <option>Google Analytics</option>
+            </select>
+          </li>
+          <li>Sub Product
+            <select>
+             <option>Sub Product 1</option>
+             <option>Sub Product 2</option>
+             <option>Sub Product 3</option>
+             <option>Sub Product 4</option>
+             <option>Sub Product 5</option>
+            </select>
+          </li>
+          <li>
+            <textarea placeholder="Enter feedback ..."></textarea>
+          </li>
+        </ul>
+      <form>
+        <input type="button" value="Back" onClick="history.go(-1);return true;">
+        <input type="button" value="Submit Feedback">
+      </form>		  
 		</div>  
 </body>
 </html>
