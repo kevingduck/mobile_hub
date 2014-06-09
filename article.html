@@ -38,18 +38,27 @@
 <html>
   <title>Support Article</title>
     <div class="container"><h1>Product: Sub Product</h1>
-      <h2>Troubleshooting Steps</h2>
-        <ul>
-	        <li>Step 1 <br />
-		        <p>Step 1 is to check for x, y, and z. Once you have confirmed that they exist, you can continue.</p>
-		      </li>
-					<li>Step 2 <br />
-		        <p>Now select the first entity you see in the field at the top-right.</p>
-		      </li>
-					<li>Step 3 <br />
-		        <p>Finally, you should see the option to save your changes.</p>
-		      </li>
-	      </ul>
+      <h3>Troubleshooting Steps</h2>
+        <h4>What error message are you seeing?</h4>
+        <select>
+          <option>"Cannot upload ad due to size restrictions"</option>
+          <option>"Ad format not supported"</option>
+          <option>"Account is not whitelisted"</option>
+        </select>
+        <h4>How long have the ads been running?</h4>
+        <select>
+          <option>Less than 24 hours</option>
+          <option>24-48 hours</option>
+          <option>More than 48 hours</option>
+        </select>
+        <h4>What kind of product feed are you using?</h4>
+        <select>
+          <option>Retail</option>
+          <option>Auto Parts</option>
+          <option>Health and Beauty</option>
+          <option>Art Supplies</option>
+        </select>
+      <form><input Type="button" VALUE="Find an answer"></form>  
 	    <form><input Type="button" VALUE="Back" onClick="history.go(-1);return true;"></form>
 	  </div>
 </body>
